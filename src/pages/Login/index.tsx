@@ -51,8 +51,6 @@ const Login = () => {
           />
           <Spacing />
             {isValid ? <Button title="Entrar" disabled={!isValid}/> : <ButtonFalse >Entrar</ButtonFalse>}
-            {/* <Button title="Entrar" disabled={!isValid}/> */}
-            {/* <button disabled={!isValid} >Enctrar</button> */}
         </Column>
       </LoginContainer>
     </Container>
